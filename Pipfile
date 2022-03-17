@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+netbox_exporter = {path = "."}
+
+[dev-packages]
+netbox_exporter = {editable = true, extras = ["dev"], path = "."}
+
+[requires]
+python_version = "3.10"
