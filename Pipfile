@@ -10,4 +10,4 @@ netbox_exporter = {path = "."}
 netbox_exporter = {editable = true, extras = ["dev"], path = "."}
 
 [requires]
-python_version = "3.10"
+python_version = "3.6"
